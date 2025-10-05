@@ -1,0 +1,39 @@
+{
+  "name": "geme_method",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/8Hors8/js_Class_method#readme",
+  "bugs": {
+    "url": "https://github.com/8Hors8/js_Class_method/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8Hors8/js_Class_method.git"
+  },
+  "license": "ISC",
+  "author": "hors",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.cjs",
+    "lint": "eslint ./src/**/*.js",
+    "test:coverage": "jest --coverage --config jest.config.cjs",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "@eslint/css": "^0.11.1",
+    "@eslint/js": "^9.37.0",
+    "babel-jest": "^30.2.0",
+    "eslint": "^9.37.0",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.4",
+    "tslib": "^2.8.1",
+    "webpack": "^5.102.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  }
+}
